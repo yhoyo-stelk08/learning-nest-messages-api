@@ -7,7 +7,7 @@ export class MessagesService {
     this.messagesRepo = new MessagesRepository();
   }
 
-  findaAll() {
+  findAll() {
     return this.messagesRepo.findAll();
   }
 
